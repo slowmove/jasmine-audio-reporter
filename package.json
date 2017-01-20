@@ -1,14 +1,21 @@
 {
-  "name": "node-modules",
+  "name": "jasmine-audio-reporter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Let the terminal make noise when your Jasmine tests are failing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "erik.johansson87@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slowmove/jasmine-audio-reporter"
+  },
+  "bugs": {
+    "url": "https://github.com/slowmove/jasmine-audio-reporter/issues"
+  },
+  "keywords": ["jasmine", "jasmine 2", "jasmine reporter"],
   "dependencies": {
     "beepbeep": "^1.2.0"
   }
