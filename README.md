@@ -23,3 +23,12 @@ If you don't already have a helpers object in `spec/support/jasmine.json`, add t
 ````
 
 If you already have a helpers object, just add `"../node_modules/jasmine-audio-reporter/"` to it.
+
+## Recommendation
+
+To run the tests in background on all file changes I recommend `nodemon`which you can install with `npm install -g nodemon`.
+Then run from your project folder
+
+```
+NODE_ENV=test nodemon -w "." node_modules/.bin/jasmine
+```
